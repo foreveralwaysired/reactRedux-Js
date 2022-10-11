@@ -211,7 +211,6 @@ const AppMenu = (props) => {
                     {isSidebar() && props.sidebarStatic && props.pinActive && <span className="pi pi-lock"></span>}
                 </button>
             </div>
-
             <div className="layout-menu-container">
                 <AppSubmenu
                     items={props.model}
@@ -225,8 +224,9 @@ const AppMenu = (props) => {
                     onRootMenuItemClick={props.onRootMenuItemClick}
                 />
             </div>
-
-            <AppInlineMenu menuMode={props.menuMode} activeInlineProfile={props.activeInlineProfile} onChangeActiveInlineMenu={props.onChangeActiveInlineMenu} />
+            {/* Eventos del perfil de usuario */}
+            {/*             <AppInlineMenu menuMode={props.menuMode} activeInlineProfile={props.activeInlineProfile} onChangeActiveInlineMenu={props.onChangeActiveInlineMenu} />
+             */}{' '}
         </div>
     );
 };

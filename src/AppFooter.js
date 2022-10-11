@@ -7,7 +7,7 @@ const AppFooter = (props) => {
                 <img id="footer-logo" src={`assets/layout/images/logo-${props.colorScheme === 'light' ? 'dark' : 'light'}.png`} alt="atlantis-layout" />
                 <span className="app-name">ATLANTIS</span>
             </div>
-            <span className="copyright">&#169; Your Organization - 2021</span>
+            <span className="copyright">&#169;Carlitos bebé Fogoso - 2022</span>
         </div>
     );
 };
